@@ -1,0 +1,66 @@
+/*! This style sheet is made for the purpose of Resume html */
+h1 {
+  font-family: "Redaction 35", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1{
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(172, 39, 39);
+    color: white;
+    padding: 10px;
+}
+
+
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #333;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+#center {
+  width: 960px;
+  text-align: center;
+}
+
+#aResume {
+  min-height: 150px;
+  width: 200px;
+  float: right;
+}
+
+body {
+    background-image: url("../images/20261019_1336110.jpg");
+    opacity: 1;
+}
