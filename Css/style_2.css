@@ -1,4 +1,4 @@
-/*! This style sheet is made for the purpose of Resume html */
+/*! This style sheet is made for the purpose of Game html */
 h1 {
   font-family: "Redaction 35", serif;
   font-weight: 600;
@@ -54,13 +54,26 @@ h1{
   text-align: center;
 }
 
-#aResume {
-  min-height: 150px;
-  width: 200px;
-  float: right;
+#bottom-img {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#bottom-img img {
+  width: 30%;
+  max-width: 500px;
+  height: auto;
+  display: block;
 }
 
 body {
     background-image: url("../images/20261019_1336110.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     opacity: 1;
 }

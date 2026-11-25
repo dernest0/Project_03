@@ -6,7 +6,7 @@ h1 {
 }
 
 h1{
-    text-align: center;
+    text-align: center
 }
 
 #main-nav {
@@ -46,7 +46,18 @@ h1{
   width: 960px;
   text-align: center;
 }
+
+#Resume {
+  clear: both;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  height: auto;
+}
 body {
     background-image: url("../images/20261019_133420.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     opacity: 1;
 }

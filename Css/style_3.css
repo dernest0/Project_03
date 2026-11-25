@@ -3,20 +3,13 @@ h1 {
   font-family: "Redaction 35", serif;
   font-weight: 600;
   font-style: normal;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: block;
 }
 
-h1{
-    text-align: center;
-}
-
-h1{
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-h1{
-    display: block;
-}
 #main-nav {
   float: left;
   width: 100%;
@@ -55,7 +48,28 @@ h1{
   text-align: center;
 }
 
+#img {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#img img {
+  width: 30%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#img audio {
+  display: block;
+}
 
 body {
-    background-image: url("../images/BG.jpg")
+    background-image: url("../images/BG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
