@@ -10,7 +10,7 @@ async function initMap(){
  });
 
 
- new google.maps.Marker({
+ home = new google.maps.Marker({
   title: "My Home",
   position: Home,
   map: map,
@@ -20,7 +20,11 @@ async function initMap(){
   },
  })
 
-  new google.maps.Marker({
+ home.addListener("click", function () {
+    alert("My Home - hello this is imanol here is my info it takes normally 22-30 minutes to get University ");
+  });
+
+  taco = new google.maps.Marker({
   title: "My favorite taco place",
   position: Taco,
   map: map,
@@ -30,7 +34,11 @@ async function initMap(){
   },
  })
 
-  new google.maps.Marker({
+ taco.addListener("click", function () {
+    alert("Best tacos in the city - by far gurantee to bet 50$ on my name its the best Location: El Burrito Amigo 5238 W Grand Ave, Chicago, IL 60639 ");
+  });
+
+  uni = new google.maps.Marker({
   title: "My University I go to",
   position: Uni,
   map: map,
@@ -39,4 +47,8 @@ async function initMap(){
    scaledSize: new google.maps.Size(50, 50),
   },
  })
+
+ uni.addListener("click", function () {
+    alert("this is the university I enjoy going day by day due to how close I can see the city at night");
+  });
 }
